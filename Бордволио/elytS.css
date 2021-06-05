@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    background-color: #4b4b4b;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(19, 165, 19, 0.8);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(52, 214, 52, 0.8);
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgba(14, 131, 14, 0.8);
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(35, 39, 41);
+}
+
+/* navbar */
+header.fixed {
+    position: fixed;
+}
+#home {
+    content: " ";
+    position: relative;
+    top: 0;
+}
+.header__child {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 40px 50px 0 0;
+
+    color: #8C8C8C;
+}
+.link {
+    text-decoration: none;
+    color: #8C8C8C;
+    text-shadow: 0px 3px 6px black;
+}
+.link:hover {
+    color: #fff;
+}
+.after {
+    user-select: none;
+    margin: 0 19px;
+}
+.signup {
+    margin: 0 0 0 65px;
+    color: #8c8c8c;
+    text-shadow: none;
+    padding: 6px 20px;
+
+    background-color: #139E07;
+    border-radius: 20px;
+}
+.signup:hover {
+    color: #fff;
+    background-color: #107a06;
+}
+.logo {
+    user-select: none;
+    color: #139E07;
+    font-size: 72px;
+    font-family: 'Amarante', cursive;
+
+    margin: 0 25px;
+
+    text-shadow: -2px 3px 0px #106608;
+}
+
+/* Welcome block */
+
+main {
+    font-family: 'Bai Jamjuree', sans-serif;
+    user-select: none;
+}
+h1.main__child {
+    color: #8C8C8C;
+    font-size: 64px;
+    margin: 200px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+p.main__child {
+    color: #fff;
+    text-shadow: 0px 0px 10px #f00;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+}
+p.arrow {
+    font-size: 32px;
+    margin: 200px 0;
+    display: flex;
+    justify-content: center;
+    color: #8c8c8c;
+    text-shadow: 0px -2px 10px black;
+    transform: rotate(180deg);
+}
+
+/* About */
+
+div.about {
+    margin: 0 170px 200px;
+    padding: 20px 40px;
+    border-radius: 24px;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 25%);
+    color: #fff;
+    background-color: #2B2F31;
+}
+p.about {
+    font-size: 22px;
+}
+
+/* footer */
+
+footer {
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.24);
+    background-color: #17191A;
+    color: #8c8c8c;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+.row__one {
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    width: 1233px;
+    margin: 40px 0;
+}
+.row__two {
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+}
+a > i {
+    margin: 0 7px;
+    color: #8c8c8c;
+}
+ a > i:hover {
+    color: #fff;
+ }
+ .footer__nav {
+     text-align: end;
+}
+.footer__link {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.footer__link:hover {
+    color: #fff;
+}
+.footer__logo {
+    font-size: 72px;
+}
+.footer__contact {
+    margin-top: 35px;
+}
+.developed {
+    margin-top: 40px;
+}
